@@ -84,7 +84,7 @@
                         </div>
                         <div class="login-btn">
                             <button type="submit" class="btn">login account</button>
-                            <span>Don't have an account? <a href="signup.html">Signup here </a></span>
+                            <span>Don't have an account? <a href="/signup">Signup here </a></span>
                         </div>
                     </form>
                 </div>

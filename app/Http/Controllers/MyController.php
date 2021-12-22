@@ -40,5 +40,7 @@ class MyController extends Controller
     function login(){
         return view('login');
     }
-
+    function signup(){
+        return view('signup');
+    }
 }
