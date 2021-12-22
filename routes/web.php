@@ -32,6 +32,8 @@ Route::post('/admin',[MyController::class,'admin']);
 
 // somoy valo vai 
 
+//Shomoi ta kharap jaschhey but I'm okay
+
 
 
 
