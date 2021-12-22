@@ -20,19 +20,11 @@ Route::get('/contact-us',[MyController::class,'contactus']);
 // User Authenticate pages
 
 
-//laravel
 
 // Admin pannel
 Route::get('/admin',[MyController::class,'admin']);
 Route::post('/admin',[MyController::class,'admin']);
 
-// hi numan vai
-// ji vai kmn asen
-// ha vai valo achi
-
-// somoy valo vai 
-
-//Shomoi ta kharap jaschhey but I'm okay
 
 
 
