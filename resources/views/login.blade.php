@@ -92,9 +92,6 @@
         </div>
     </div>
 </section>
-
-
-
 <!-- ToTop Button -->
 <button class="scrollup"><i class="fas fa-angle-up"></i></button>
 @endsection
