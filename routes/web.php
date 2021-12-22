@@ -22,6 +22,7 @@ Route::get('/contact-us',[MyController::class,'contactus']);
 //login route
 Route::get('/login',[MyController::class, 'login']);
 //login route
+//jbd
 
 
 
