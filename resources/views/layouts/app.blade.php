@@ -23,7 +23,7 @@
         @livewireStyles
         </head>
         <body>
-  <!-- Preloader Starts -->
+  {{-- <!-- Preloader Starts -->
   <div class="preloader" id="preloader">
     <div class="preloader-inner">
       <div class="spinner">
@@ -32,7 +32,7 @@
         <div class="bounce3"></div>
       </div>
     </div>
-  </div>
+  </div> --}}
   <!-- header -->
   <header>
     <!-- header-top -->
@@ -103,7 +103,7 @@
               <span>
                 <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
               </span>
-              <a href="#" class="btn">login</a>
+              <a href="/login" class="btn">login</a>
             </div>
           </div>
         </div>
