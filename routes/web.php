@@ -19,6 +19,10 @@ Route::get('/contact-us',[MyController::class,'contactus']);
 
 // User Authenticate pages
 
+//login route
+Route::get('/login',[MyController::class, 'login']);
+//login route
+
 
 
 // Admin pannel

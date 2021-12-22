@@ -37,4 +37,8 @@ class MyController extends Controller
         return view('admin.home');
     }
 
+    function login(){
+        return view('login');
+    }
+
 }

@@ -24,7 +24,6 @@
         </head>
         <body>
 
-  <!-- header -->
   <header>
     <!-- header-top -->
     <div class="header-top">
@@ -89,7 +88,7 @@
               <span>
                 <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
               </span>
-              <a href="#" class="btn">login</a>
+              <a href="/login" class="btn">login</a>
             </div>
           </div>
         </div>
