@@ -120,7 +120,7 @@
                 ">
               <div class="col-lg-3 col-md-3">
                 <div class="f-logo">
-                  <a href="index.html">
+                  <a href="/">
                     <img src="{{asset('images/fontent')}}/logo/logo.png" alt="" /></a>
                 </div>
               </div>
