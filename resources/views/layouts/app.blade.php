@@ -18,8 +18,6 @@
         <link rel="stylesheet" href="{{asset('css/fontent/slick.css')}}">
         <link rel="stylesheet" href="{{asset('css/fontent/jquery-ui.css')}}">
         <link rel="stylesheet" href="{{asset('css/fontent/style.css')}}">
-
-
         @livewireStyles
         </head>
         <body>
@@ -66,12 +64,9 @@
           <div class="col-lg-6 d-none d-lg-block">
             <nav id="mobile-menu">
               <ul class="main-menu">
-                <li>
-                  <a href="/">home <span><i class="fas fa-angle-down"></i></span></a>
-
-                </li>
+                <li><a href="/">home </a> </li>
                 <li><a href="/about-us">about us</a></li>
-                <li><a href="menu.html">menu</a></li>
+                <li><a href="menu">menu</a></li>
 
                 <li><a href="/contact-us">contact us</a></li>
               </ul>
