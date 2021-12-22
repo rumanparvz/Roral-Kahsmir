@@ -20,7 +20,7 @@ Route::get('/contact-us',[MyController::class,'contactus']);
 // User Authenticate pages
 
 
-
+//laravel
 
 // Admin pannel
 Route::get('/admin',[MyController::class,'admin']);
