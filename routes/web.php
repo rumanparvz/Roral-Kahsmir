@@ -28,8 +28,9 @@ Route::post('/admin',[MyController::class,'admin']);
 
 // hi numan vai
 // ji vai kmn asen
-
 // ha vai valo achi
+
+// somoy valo vai 
 
 
 
