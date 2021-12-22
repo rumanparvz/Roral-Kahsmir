@@ -24,5 +24,6 @@ Route::get('/contact-us',[MyController::class,'contactus']);
 
 // Admin pannel
 Route::get('/admin',[MyController::class,'admin']);
+Route::post('/admin',[MyController::class,'admin']);
 
 // hi numan vai
