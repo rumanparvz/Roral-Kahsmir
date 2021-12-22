@@ -29,7 +29,7 @@ class MyController extends Controller
     }
 
     public function cart(){
-        return view('cart');
+        return view('shopping-cart');
     }
 
     public function admin(Type $var = null)
@@ -40,7 +40,5 @@ class MyController extends Controller
     function login(){
         return view('login');
     }
-    function signup(){
-        return view('signup');
-    }
+    
 }

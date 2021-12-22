@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Laravel</title>
+        <title>@yield('title')</title>
           <!-- Favicon Icon -->
         <link rel="shortcut icon" href="favicon.png" />
         <!-- Fonts -->
@@ -81,7 +81,7 @@
                 <a href="#"><i class="fas fa-user"></i></a>
               </span>
               <span>
-                <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
+                <a href="/shopping-cart"><i class="fas fa-shopping-basket"></i></a>
               </span>
               <a href="/login" class="btn">login</a>
             </div>
