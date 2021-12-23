@@ -3,6 +3,7 @@
 @section('content')
  <!-- banner-area -->
  <section class="banner-area padding-top-100 padding-bottom-150">
+    
     <div class="banner-shapes">
       <span class="b-shape-1 item-animateOne"><img src="{{asset('images/fontent')}}/img/5.png" alt="" /></span>
       <span class="b-shape-2 item-animateTwo"><img src="{{asset('images/fontent')}}/img/6.png" alt="" /></span>
