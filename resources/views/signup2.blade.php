@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.fontent')
 @section('content')
      <!-- breadcrumb-area -->
      <div class="banner-area breadcrumb-area padding-top-120 padding-bottom-90">

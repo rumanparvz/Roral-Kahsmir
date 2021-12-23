@@ -1,7 +1,6 @@
 @extends('layouts.admin')
 
 @section('content')
-
 <div class="page-wrapper">
     <!--page-content-wrapper-->
     <div class="page-content-wrapper">
@@ -42,7 +41,7 @@
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
             <!--end row-->
             <div class="row">
