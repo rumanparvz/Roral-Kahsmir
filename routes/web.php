@@ -22,7 +22,7 @@ Route::get('/shopping-cart',[MyController::class,'cart']);
 Route::get('/login',[MyController::class, 'login']);
 Route::get('/signup',[MyController::class, 'signup']);
 //login route
-//jbd
+
 
 
 
