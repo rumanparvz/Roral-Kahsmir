@@ -2,12 +2,15 @@
 
 @section('content')
 <style>
+<<<<<<< HEAD
 
   /* .carouselExampleControls{
     background-color: rgba(0,0,0,0.8) !important;
     display: block;
   } */
 =======
+=======
+>>>>>>> 081bb5348c30ce284d65d88290466fb0b8e9960b
 .overlay{
 background-color: rgba(0,0,0,0.9);
 height: 100%;
@@ -16,7 +19,11 @@ z-index: 99;
 }
 .carousel-caption{
 
+<<<<<<< HEAD
   bottom: 35rem !important;
+=======
+    bottom: 310px !important;
+>>>>>>> 081bb5348c30ce284d65d88290466fb0b8e9960b
     background: rgba(0,0,0,0.6);    /* opacity: 0.7; */
 
     border-radius: 10px;
@@ -31,6 +38,7 @@ z-index: 99;
     font-family: sans-serif;
     color: #fff;
 }
+<<<<<<< HEAD
 .carouselExampleControls{
     height: 920px;
 }
@@ -114,6 +122,33 @@ z-index: 99;
 
 
 
+=======
+.about-image-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.about-image-grid-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.about-image-grid-inner {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+>>>>>>> 081bb5348c30ce284d65d88290466fb0b8e9960b
 </style>
  <!-- banner-area -->
  <section class="banner-area pt-4">
@@ -121,6 +156,7 @@ z-index: 99;
         <div class="carousel-inner">
             <div class="overlay">
           <div class="carousel-item active">
+<<<<<<< HEAD
             <img  class="d-block sliderImage" src="http://127.0.0.1:8000/images/fontent/gallery/0b95f0e8-dfea-4708-8c83-b2ff9508c7a8.jpg" alt="First slide">
             <div class="carousel-caption">
                 <h2> Special Offer</h2>
@@ -130,10 +166,21 @@ z-index: 99;
                 <div class="d-flex justify-content-center">
                     <button class="btn m-4 comander"><i class="fas fa-arrow-circle-right"></i> Commander </button>
                     <button class="btn m-4 booking"><i class="fas fa-table"></i> Book Now</button>
+=======
+            <img style="height: 100%"  class="d-block w-100" src="http://127.0.0.1:8000/images/fontent/gallery/24.png" alt="First slide">
+            <div class="carousel-caption">
+                <h2> Special Offer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ipsa obcaecati eos se</p>
+                <br>
+                <div class="d-flex justify-content-center">
+                    <button class="btn m-4"><i class="fas fa-arrow-circle-right"></i> Commander </button>
+                    <button class="btn m-4"><i class="fas fa-table"></i> Book Now</button>
+>>>>>>> 081bb5348c30ce284d65d88290466fb0b8e9960b
                 </div>
             </div>
           </div>
           <div class="carousel-item">
+<<<<<<< HEAD
             <img class="d-block sliderImage" src="{{ asset('images/fontent/gallery/7d3bf757-cb9e-45cd-84d0-2f07c2181555.jpg') }}" alt="Second slide">
             <div class="carousel-caption">
                 <h2> Special Offer</h2>
@@ -143,10 +190,21 @@ z-index: 99;
                 <div class="d-flex justify-content-center">
                     <button class="btn m-4 comander"><i class="fas fa-arrow-circle-right"></i> Commander </button>
                     <button class="btn m-4 booking"><i class="fas fa-table"></i> Book Now</button>
+=======
+            <img style="height: 100%;width:100%" class="d-block" src="{{ asset('images/fontent/gallery/istockphoto-1295387240-170667a.jpg') }}" alt="Second slide">
+            <div class="carousel-caption">
+                <h2> Special Offer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ipsa obcaecati eos se</p>
+                <br>
+                <div class="d-flex justify-content-center">
+                    <button class="btn m-4"><i class="fas fa-arrow-circle-right"></i> Commander </button>
+                    <button class="btn m-4"><i class="fas fa-table"></i> Book Now</button>
+>>>>>>> 081bb5348c30ce284d65d88290466fb0b8e9960b
                 </div>
             </div>
           </div>
           <div class="carousel-item">
+<<<<<<< HEAD
             <img  class="d-block w-100 sliderImage" src="http://127.0.0.1:8000/images/fontent/gallery/7d3bf757-cb9e-45cd-84d0-2f07c2181555.jpg"alt="Third slide">
             <div class="carousel-caption">
                 <h2> Special Offer</h2>
@@ -156,13 +214,27 @@ z-index: 99;
                 <div class="d-flex justify-content-center">
                     <button class="btn btn-sm m-4 comander"><i class="fas fa-arrow-circle-right"></i> Commander </button>
                     <button class="btn m-4 booking"><i class="fas fa-table"></i> Book Now</button>
+=======
+            <img style="height: 100%"  class="d-block w-100" src="http://127.0.0.1:8000/images/fontent/gallery/24.png"alt="Third slide">
+            <div class="carousel-caption">
+                <h2> Special Offer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ipsa obcaecati eos se</p>
+                <br>
+                <div class="d-flex justify-content-center">
+                    <button class="btn m-4"><i class="fas fa-arrow-circle-right"></i> Commander </button>
+                    <button class="btn m-4"><i class="fas fa-table"></i> Book Now</button>
+>>>>>>> 081bb5348c30ce284d65d88290466fb0b8e9960b
                 </div>
             </div>
           </div>
         </div>
     </div>
 
+<<<<<<< HEAD
         {{-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+=======
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+>>>>>>> 081bb5348c30ce284d65d88290466fb0b8e9960b
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
@@ -264,16 +336,54 @@ z-index: 99;
   <!--popula-menu-area -->
 <section class="menu-area padding-bottom-120">
     <div class="container">
-    <div class="common-title-area text-center padding-50 wow fadeInUp">
+    {{-- <div class="common-title-area text-center padding-50 wow fadeInUp">
         <h3>food items</h3>
         <h2>popular <span>menu</span></h2>
-    </div>
+    </div> --}}
     <!-- menu-nav-wrapper -->
+<<<<<<< HEAD
 
 
 
 
     </div>
+=======
+    <div class="row mt-5 pt-5">
+    <div class="col-xl-6 col-lg-6 col-md-6">
+        <div class="max-w-390">
+            <div class="common-title-area padding-bottom-30 wow fadeInLeft">
+
+                <h2>Roral <span>Kashmir</span></h2>
+            </div>
+          <p class="online-des">
+            NOUS VISONS À PRODUIRE À LA MAISON AUTANT QUE POSSIBLE POUR LA MEILLEURE QUALITÉ ET À RÉDUIRE LES MILLES ALIMENTAIRES. NOS DÉLICIEUX GÂTEAUX, SCONES TRADITIONNELS DEVON, PAINS, SOUPES, SAUCES ET ACCOMPAGNEMENTS SONT PRODUITS DANS NOS PROPRES CUISINES. RESTAURANT INDIEN EN FRANCE, INCLUENT UN MENU DE RESTAURANT MERVEILLEUX OÙ VOUS POURREZ PROFITER DE LA MEILLEURE CUISINE INDIENNE ET PAKISTANAISE DANS LE RESTAURANT ET BIEN PLUS ENCORE. JARDIN DE KASHMIR EST LA MEILLEURE OPTION AUTOUR DE VOUS. HAUTE GASTRONOMIE INDIENNE ET PAKISTANAISE
+          </p>
+       
+        </div>
+      </div>
+
+      <div class="col-xl-6 col-lg-6 col-md-6">
+        <div class="about-image-grid">
+                   <div class="about-image-grid-item">
+                      <div class="about-image-grid-inner mb-30">
+                         <img src="https://fasteats.xyz/storage/upload/aboutImage/product--1637711365.jpg" class="img-fluid" alt="welcome">
+                      </div>
+                      <div class="about-image-grid-inner mb-30">
+                         <img src="https://fasteats.xyz/storage/upload/aboutImage/product--1637711565.jpg" class="img-fluid" alt="welcome">
+                      </div>
+                   </div>
+                   <div class="about-image-grid-item">
+                      <div class="about-image-grid-inner fluid-height">
+                         <img src="https://fasteats.xyz/storage/upload/aboutImage/product--1637711627.jpg" class="img-fluid" alt="welcome">
+                      </div>
+                   </div>
+                </div>
+      </div>
+
+    </div>
+
+    </div>
+>>>>>>> 081bb5348c30ce284d65d88290466fb0b8e9960b
 </section>
 
 <!-- popular-dishes -->
