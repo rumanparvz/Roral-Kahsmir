@@ -168,7 +168,23 @@
               <span>
                 <a href="/shopping-cart"><i class="fas fa-shopping-basket"></i></a>
               </span>
+              @auth
+                  <a class="btn" href="{{ route('logout') }}"
+                    onclick="event.preventDefault();
+                                    document.getElementById('logout-form').submit();">
+                    {{ __('Logout') }}
+                </a>
+
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                    @csrf
+                </form>
+
+              @endauth
+              @guest
+
               <a href="/login" class="btn">login</a>
+
+              @endguest
             </div>
           </div>
         </div>

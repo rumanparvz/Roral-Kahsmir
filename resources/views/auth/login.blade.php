@@ -137,24 +137,29 @@
             <div class="col-lg-6 col-md-12 wow fadeInUp">
                 <div class="contact-form-area login-form-area signup-form-area">
                     <h3>login to <span>your account</span></h3>
-                    <form action="#">
-                        <div class="google-button">
+                    <form action="/login" method="POST">
+                        @csrf
+                        {{-- <div class="google-button">
                             <a href="#" class="btn"><span><i class="fab fa-google"></i></span> google</a>
-                        </div>
-                        <input type="email" placeholder="email">
-                        <input type="password" placeholder="password">
+                        </div> --}}
+                        <input type="email" name="email" value="{{ old('email') }}" placeholder="email">
+                        <input value="{{ old('password') }}" type="password" name="password" placeholder="password">
                         <div class="checkbox-area">
                             <div class="checkbox-part">
-                                <input type="checkbox" id="remember">
+                                <input type="checkbox" id="remember" name="remember" >
                                 <label for="remember">remember me</label>
                             </div>
+                            @if (Route::has('password.request'))
+
                             <div class="forgot-pas">
-                                <a href="#">forgot password?</a>
+                                <a href="{{ route('password.request') }}">{{ __('Forgot Your Password?')}}</a>
                             </div>
+                        @endif
+
                         </div>
                         <div class="login-btn">
                             <button type="submit" class="btn">login account</button>
-                            <span>Don't have an account? <a href="/signup">Signup here </a></span>
+                            <span>Don't have an account? <a href="{{route('register')}}">Signup here </a></span>
                         </div>
                     </form>
                 </div>
