@@ -3,26 +3,13 @@
 @section('content')
  <!-- banner-area -->
  <section class="banner-area pt-4">
-  <div class="owl-carousel owl-banner">
-    <div class="item" style="height:60rem" >
-        <img class="img-fluid" src="{{ asset('images/fontent/gallery/istockphoto-1295387240-170667a.jpg') }}" alt="">
-    </div>
-
-    <div class="item" style="height:60rem" >
-      <img class="img-fluid" src="{{ asset('images/fontent/gallery/istockphoto-1295387240-170667a.jpg') }}" alt="">
-  </div>
-
-  <div class="item" style="height:60rem" >
-    <img class="img-fluid" src="{{ asset('images/fontent/gallery/istockphoto-1295387240-170667a.jpg') }}" alt="">
-</div>
-  </div>
-    {{-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="http://127.0.0.1:8000/images/fontent/gallery/24.png" alt="First slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="http://127.0.0.1:8000/images/fontent/gallery/24.png" alt="Second slide">
+            <img style="height: 943px" class="d-block w-100" src="{{ asset('images/fontent/gallery/istockphoto-1295387240-170667a.jpg') }}" alt="Second slide">
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="http://127.0.0.1:8000/images/fontent/gallery/24.png"alt="Third slide">
@@ -36,7 +23,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div> --}}
+      </div>
 </section>
 
 <section class="banner-gallery pt-5 pb-5">
