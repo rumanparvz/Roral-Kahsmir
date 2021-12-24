@@ -302,6 +302,40 @@
         <script src="{{asset('js/fontent/wow.min.js')}}"></script>
         <script src="{{asset('js/fontent/main.js')}}"></script>
         <script src="{{asset('js/fontent/custom.js')}}"></script>
+
+        <script>
+          $(document).ready(function(){
+            var owl = $('#BannerSlider')
+                  owl.owlCarousel({
+                      loop:true,
+                      margin:8,
+                      autoplay:true,
+                      responsiveClass:true,
+                      autoplayTimeout: 2500,
+                      autoplaySpeed: 1000,
+                      dots:false,
+                      autWidth:true,
+                      responsive:{
+                          0:{
+                              items:1,
+                              nav:true,
+                              loop:true,
+                             
+                          },
+                          600:{
+                              items:1,
+                              nav:true,
+                              loop:true,
+                          },
+                          1000:{
+                              items:6,
+                              loop:true,
+                              
+                          }
+                      }
+                  });
+          })
+      </script>
     </body>
 </html>
 

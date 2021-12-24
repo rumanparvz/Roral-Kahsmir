@@ -127,5 +127,9 @@
         <script src="{{asset('js/fontent/easing.min.js')}}"></script>
         <script src="{{asset('js/fontent/wow.min.js')}}"></script>
         <script src="{{asset('js/fontent/main.js')}}"></script>
+
+        <script>
+          
+      </script>
     </body>
 </html>

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.owl-carousel').owlCarousel({
+    $('.owl-products').owlCarousel({
                 loop:true,
                 margin:8,
                 autoplay:true,
@@ -28,35 +28,33 @@ $(document).ready(function() {
                 }
             });
 
-
-            var owl = $('#TopBanner')
-            owl.owlCarousel({
+            $('.owl-banner').owlCarousel({
                 loop:true,
-                margin:8,
+                margin:0,
                 autoplay:true,
+                autoplayTimeout: 3500,
+                autoplaySpeed: 2000,
                 responsiveClass:true,
-                autoplayTimeout: 2500,
-                autoplaySpeed: 1000,
-                dots:false,
-                autWidth:true,
+                autWidth: true,
+                autoHeight:true,
                 responsive:{
                     0:{
                         items:1,
-                        nav:true,
-                        loop:true,
-                       
+                        nav:true
                     },
                     600:{
                         items:1,
-                        nav:true,
-                        loop:true,
+                        nav:false
                     },
                     1000:{
                         items:1,
+                        nav:true,
                         loop:true,
-                        
                     }
                 }
-            });
+            })
+
+           
             
   });
+

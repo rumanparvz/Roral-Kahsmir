@@ -3,8 +3,20 @@
 @section('content')
  <!-- banner-area -->
  <section class="banner-area pt-4">
+  <div class="owl-carousel owl-banner">
+    <div class="item" style="height:60rem" >
+        <img class="img-fluid" src="{{ asset('images/fontent/gallery/istockphoto-1295387240-170667a.jpg') }}" alt="">
+    </div>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="item" style="height:60rem" >
+      <img class="img-fluid" src="{{ asset('images/fontent/gallery/istockphoto-1295387240-170667a.jpg') }}" alt="">
+  </div>
+
+  <div class="item" style="height:60rem" >
+    <img class="img-fluid" src="{{ asset('images/fontent/gallery/istockphoto-1295387240-170667a.jpg') }}" alt="">
+</div>
+  </div>
+    {{-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="{{asset('images/admin/login-images/register-frent-img.jpg')}}" alt="First slide">
@@ -24,7 +36,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
+      </div> --}}
 </section>
 
 <section class="banner-gallery pt-5 pb-5">
@@ -1125,7 +1137,7 @@
             </div>
             </div> --}}
 
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel owl-products">
                 <div class="item">
                     <div class="single-dishes">
                         <div class="dish-img">
@@ -1715,7 +1727,6 @@
       </div>
     </div>
 </section>
-
   <!-- slider-gallery-img -->
   <div class="slider-gallery-img">
     <div class="container-fluid">
