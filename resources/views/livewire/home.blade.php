@@ -1,177 +1,32 @@
-@extends('layouts.fontent')
+@extends('layouts.app')
 
 @section('content')
  <!-- banner-area -->
- <section class="banner-area padding-top-100 padding-bottom-150">
-    
-    <div class="banner-shapes">
-      <span class="b-shape-1 item-animateOne"><img src="{{asset('images/fontent')}}/img/5.png" alt="" /></span>
-      <span class="b-shape-2 item-animateTwo"><img src="{{asset('images/fontent')}}/img/6.png" alt="" /></span>
-      <span class="b-shape-3 item-bounce"><img src="{{asset('images/fontent')}}/img/7.png" alt="" /></span>
-      <span class="b-shape-4"><img src="{{asset('images/fontent')}}/img/9.png" alt="" /></span>
-      <span class="b-shape-5"><img src="{{asset('images/fontent')}}/shapes/18.png" alt="" /></span>
-    </div>
-    <div class="container padding-top-145">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-md-12 col-lg-6 col-xl-6">
-          <div class="banner-content">
-            <h1>enjoy our delicious <span>food</span></h1>
-            <!-- buyone-shape -->
-            <div class="buyone-shape">
-              <div class="banner-tag">
-                <h5>buy one pizza. get one</h5>
-              </div>
-              <span class="banner-badge">free</span>
-            </div>
-            <!-- pricing -->
-            <div class="price">price : <span>$10.50</span></div>
+ <section class="banner-area pt-4">
 
-            <!-- order-box -->
-            <div class="order-box">
-              <span class="order-img"><img src="{{asset('images/fontent')}}/icons/1.png" alt="" /></span>
-              <div class="order-content">
-                <p>delivery order num.</p>
-                <span>123-59794069</span>
-              </div>
-              <a href="#" class="btn">try it now</a>
-            </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="{{asset('images/admin/login-images/register-frent-img.jpg')}}" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="{{asset('images/admin/login-images/register-frent-img.jpg')}}" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="{{asset('images/admin/login-images/register-frent-img.jpg')}}"alt="Third slide">
           </div>
         </div>
-        <div class="d-none d-lg-block col-lg-6 col-xl-6">
-          <div class="banner-img">
-            <div class="pizza-shapes">
-              <span class="p-shape-1"><img src="{{asset('images/fontent')}}/img/2.png" alt="" /></span>
-              <span class="p-shape-2"><img src="{{asset('images/fontent')}}/img/3.png" alt="" /></span>
-              <span class="p-shape-3"><img src="{{asset('images/fontent')}}/img/4.png" alt="" /></span>
-              <span class="p-shape-4"><img src="{{asset('images/fontent')}}/img/8.png" alt="" /></span>
-            </div>
-            <img src="{{asset('images/fontent')}}/img/1.png" alt="" />
-          </div>
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-    </div>
 </section>
- <!-- form-area -->
-{{-- <section class="form-area">
-    <div class="container">
-    <div class="form-box padding-top-110 padding-bottom-80">
-        <div class="form-shapes">
-        <span class="fs-1"><img src="{{asset('images/fontent')}}/shapes/f-shape-1.png" alt="" /></span>
-        <span class="fs-2"><img src="{{asset('images/fontent')}}/shapes/f-shape-2.png" alt="" /></span>
-        <span class="fs-3 item-animateOne"><img src="{{asset('images/fontent')}}/shapes/f-shape-7.png" alt="" /></span>
-        <span class="fs-5"><img src="{{asset('images/fontent')}}/shapes/4.png" alt="" /></span>
-        <span class="fs-6"><img src="{{asset('images/fontent')}}/shapes/5.png" alt="" /></span>
-        <span class="fs-7 item-animateTwo"><img src="{{asset('images/fontent')}}/shapes/7.png" alt="" /></span>
-        <span class="fs-8 item-animateOne"><img src="{{asset('images/fontent')}}/shapes/9.png" alt="" /></span>
-        </div>
-        <div class="common-title-area text-center padding-bottom-50 wow fadeInUp">
-        <h3>Online Booking</h3>
-        <h2>Table <span>Booking</span></h2>
-        </div>
-        <div class="row">
-        <div class="col-lg-10 offset-lg-1 col-md-12">
-            <div class="form-wraper padding-bottom-40">
-            <form action="#">
-                <select class="form-item2">
-                <option value="">4 people</option>
-                <option value="">3 people</option>
-                <option value="">2 people</option>
-                <option value="">1 people</option>
-                </select>
-                <input class="form-item2" type="date" />
-                <select class="form-item2">
-                <option value="">07:24 pm</option>
-                <option value="">07:24 pm</option>
-                <option value="">07:24 pm</option>
-                <option value="">07:24 pm</option>
-                </select>
-                <button type="submit">find table</button>
-            </form>
-            </div>
-        </div>
-        </div>
-    </div>
-    </div>
-</section> --}}
 
-<!-- about us -->
-{{-- <section class="about-area padding-top-120">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 col-md-12 wow fadeInLeft">
-          <div class="about-left">
-            <div class="about-l-shapes">
-              <span class="als-1"><img src="{{asset('images/fontent')}}/shapes/2.png" alt="" /></span>
-            </div>
-            <div class="row">
-              <div class="
-                    col-lg-4 col-md-4 col-sm-4 col-4
-                    d-flex
-                    align-items-end
-                    justify-content-end
-                    margin-bottom-20
-                  ">
-                <div class="about-gallery-1">
-                  <img src="{{asset('images/fontent')}}/gallery/1.jpg" alt="" />
-                </div>
-              </div>
-              <div class="col-lg-8 col-md-8 col-sm-8 col-8 margin-bottom-20">
-                <div class="about-gallery-2">
-                  <img src="{{asset('images/fontent')}}/gallery/2.jpg" alt="" />
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                <div class="about-gallery-3">
-                  <img src="{{asset('images/fontent')}}/gallery/3.jpg" alt="" />
-                </div>
-              </div>
-              <div class="
-                    col-lg-5 col-md-5 col-sm-5 col-5
-                    d-flex
-                    align-items-start
-                  ">
-                <div class="about-gallery-4 text-center">
-                  <img class="mp" src="{{asset('images/fontent')}}/icons/3.png" alt="" />
-                  <div class="items counter">2000</div>
-                  <p>food item</p>
-                  <span class="g-s-4"><img src="{{asset('images/fontent')}}/shapes/10.png" alt="" /></span>
-                  <span class="g-s-5"><img src="{{asset('images/fontent')}}/shapes/14.png" alt="" /></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 offset-lg-1 wow fadeInRight">
-          <div class="about-right">
-            <div class="about-r-shapes">
-              <span class="as-1 item-bounce"><img src="{{asset('images/fontent')}}/shapes/1.png" alt="" /></span>
-            </div>
-            <h2>
-              Fresh taste at a great price, only for
-              <span>hungry people.</span>
-            </h2>
-            <p>
-              Food is a restaurant, bar and coffee roastery located on a busy
-              corner site in Farringdon's Exmouth Market. With glazed.
-            </p>
-            <div class="garlic-burger-card">
-              <div class="garlic-burger-img">
-                <img class="price-badge" src="{{asset('images/fontent')}}/icons/4.png" alt="" />
-                <img src="{{asset('images/fontent')}}/icons/2.png" alt="" />
-              </div>
-              <div class="garlic-burger-content">
-                <h5>garlic burger parties</h5>
-                <p>
-                  It is a long established fact that a reader BBQ food
-                  Chicken.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-</section> --}}
 <section class="banner-gallery pt-5 pb-5">
     <div class="container">
       <div class="row justify-content-center">
@@ -401,7 +256,7 @@
                 </div>
                 </div>
             </div>
-            
+
             <div class="col-lg-4 col-md-4">
                 <div class="
                     single-menu-item
@@ -1586,7 +1441,7 @@
 
 
 
-            
+
     </div>
     </div>
 </section>

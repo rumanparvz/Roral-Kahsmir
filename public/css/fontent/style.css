@@ -1,15 +1,15 @@
 /*-------------------------------------------------------------
 Template Name: Khadyo HTML 5 Template
-Template URL: 
+Template URL:
 Author Name: SoftTech IT
 Author URL: https://themeforest.net/user/softtech-it/portfolio
 Version: 1.0
-Description: 
+Description:
 Tags: Restaurant,
 Text Domain: khadyo
 -------------------------------------------------------------*/
-/*------------------------------------------------------------- 
-TABLE OF CONTENTS: 
+/*-------------------------------------------------------------
+TABLE OF CONTENTS:
 ---------------------------------------------------------------
 >> Author CSS
 >> Navbar
@@ -17,7 +17,7 @@ TABLE OF CONTENTS:
 >> Footer Section
 >> Breadcrumb Section
 >> Preloader
->> Button 
+>> Button
 >> Form
 >> Theme
 >> Home Page 01
@@ -27,18 +27,18 @@ TABLE OF CONTENTS:
 >> Contact Page
 >> Single Food Page
 >> Food Page 2
->> Food Page 
->> Gallery Page 
->> Menu Page 
->> Single Dish Page 
->> Shoping Cart 
+>> Food Page
+>> Gallery Page
+>> Menu Page
+>> Single Dish Page
+>> Shoping Cart
 >> Blog Page
 >> Blog Details Page
 >> Homepage 2
 >> Footer 2
 >> Header 2 Section
 >> Header 3 Section
->> Homepage 3 
+>> Homepage 3
 >> Footer 3
 >> Login Page
 >> Signup Page
@@ -2038,303 +2038,7 @@ header.header3 {
   background: #76459d; }
 
 /* Home Page 01*/
-.banner-area {
-  position: relative;
-  background-color: #131313;
-  overflow: hidden; }
-  .banner-area:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 20%;
-    width: 450px;
-    height: 100%;
-    background-color: #271c0a; }
-    @media (min-width: 768px) and (max-width: 991.98px) {
-      .banner-area:before {
-        opacity: 0; } }
-    @media (max-width: 767.98px) {
-      .banner-area:before {
-        opacity: 0; } }
-  @media (max-width: 767.98px) {
-    .banner-area .banner-shapes {
-      display: none; } }
-  .banner-area .banner-shapes img {
-    width: inherit; }
-    @media (min-width: 768px) and (max-width: 991.98px) {
-      .banner-area .banner-shapes img {
-        width: 50%; } }
-    @media (min-width: 992px) and (max-width: 1199.98px) {
-      .banner-area .banner-shapes img {
-        width: 60%; } }
-    @media (min-width: 1200px) and (max-width: 1439.98px) {
-      .banner-area .banner-shapes img {
-        width: 60%; } }
-  .banner-area .banner-shapes .b-shape-1 {
-    position: absolute;
-    bottom: 3%;
-    left: 3%; }
-  .banner-area .banner-shapes .b-shape-2 {
-    position: absolute;
-    top: 50%;
-    left: 3%; }
-  .banner-area .banner-shapes .b-shape-3 {
-    position: absolute;
-    top: 17%;
-    left: 2%;
-    width: 100px;
-    z-index: 0; }
-  .banner-area .banner-shapes .b-shape-4 {
-    position: absolute;
-    bottom: 0;
-    right: 0; }
-  .banner-area .banner-shapes .b-shape-5 {
-    position: absolute;
-    top: 0;
-    left: 0; }
-  .banner-area .banner-content {
-    padding-top: 110px;
-    padding-bottom: 80px; }
-    @media (max-width: 767.98px) {
-      .banner-area .banner-content {
-        padding-top: 40px; } }
-    @media (min-width: 768px) and (max-width: 991.98px) {
-      .banner-area .banner-content {
-        padding-top: 40px; } }
-    @media (min-width: 992px) and (max-width: 1199.98px) {
-      .banner-area .banner-content {
-        padding-top: 40px; } }
-    .banner-area .banner-content h1 {
-      text-transform: uppercase;
-      color: #ffffff;
-      margin-bottom: 40px; }
-      .banner-area .banner-content h1 span {
-        color: #ff9933; }
-      @media (min-width: 992px) and (max-width: 1199.98px) {
-        .banner-area .banner-content h1 {
-          font-size: 42px;
-          margin-bottom: 20px; } }
-      @media (min-width: 768px) and (max-width: 991.98px) {
-        .banner-area .banner-content h1 {
-          font-size: 42px;
-          margin-bottom: 20px; } }
-      @media (max-width: 767.98px) {
-        .banner-area .banner-content h1 {
-          font-size: 42px;
-          margin-bottom: 20px; } }
-    .banner-area .banner-content .buyone-shape {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      margin-bottom: 40px; }
-      @media (max-width: 767.98px) {
-        .banner-area .banner-content .buyone-shape {
-          margin-bottom: 20px; } }
-      @media (min-width: 768px) and (max-width: 991.98px) {
-        .banner-area .banner-content .buyone-shape {
-          margin-bottom: 20px; } }
-      @media (min-width: 992px) and (max-width: 1199.98px) {
-        .banner-area .banner-content .buyone-shape {
-          margin-bottom: 20px; } }
-      @media (min-width: 1200px) and (max-width: 1439.98px) {
-        .banner-area .banner-content .buyone-shape {
-          margin-bottom: 20px; } }
-      .banner-area .banner-content .buyone-shape .banner-tag {
-        border: 1px dotted #ffffff;
-        border-right: none;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        padding: 10px;
-        padding-right: 40px;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        border-top-left-radius: 14px;
-        border-bottom-left-radius: 14px; }
-        @media (max-width: 575.98px) {
-          .banner-area .banner-content .buyone-shape .banner-tag {
-            padding-right: 2px; } }
-        @media (min-width: 992px) and (max-width: 1199.98px) {
-          .banner-area .banner-content .buyone-shape .banner-tag {
-            padding-right: 12px; } }
-        .banner-area .banner-content .buyone-shape .banner-tag h5 {
-          color: #ffffff;
-          text-transform: capitalize;
-          font-weight: 600; }
-          @media (min-width: 992px) and (max-width: 1199.98px) {
-            .banner-area .banner-content .buyone-shape .banner-tag h5 {
-              font-size: 20px; } }
-          @media (min-width: 768px) and (max-width: 991.98px) {
-            .banner-area .banner-content .buyone-shape .banner-tag h5 {
-              font-size: 20px; } }
-          @media (max-width: 767.98px) {
-            .banner-area .banner-content .buyone-shape .banner-tag h5 {
-              font-size: 20px; } }
-      .banner-area .banner-content .buyone-shape .banner-badge {
-        font-size: 30px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        background: #cc3333;
-        color: #ffffff;
-        padding: 10px 20px;
-        text-transform: uppercase;
-        position: relative; }
-        @media (max-width: 575.98px) {
-          .banner-area .banner-content .buyone-shape .banner-badge {
-            padding: 10px 6px; } }
-        @media (min-width: 992px) and (max-width: 1199.98px) {
-          .banner-area .banner-content .buyone-shape .banner-badge {
-            font-size: 24px; } }
-        @media (min-width: 768px) and (max-width: 991.98px) {
-          .banner-area .banner-content .buyone-shape .banner-badge {
-            font-size: 24px; } }
-        @media (max-width: 767.98px) {
-          .banner-area .banner-content .buyone-shape .banner-badge {
-            font-size: 24px; } }
-        .banner-area .banner-content .buyone-shape .banner-badge::after {
-          content: "";
-          position: absolute;
-          width: 22px;
-          right: -39px;
-          height: 14px;
-          top: -1px;
-          border-style: solid;
-          border-width: 38px 0 28px 40px;
-          border-color: transparent transparent transparent #cc3333; }
-          @media (min-width: 992px) and (max-width: 1199.98px) {
-            .banner-area .banner-content .buyone-shape .banner-badge::after {
-              border-width: 29px 0 28px 40px; } }
-          @media (min-width: 768px) and (max-width: 991.98px) {
-            .banner-area .banner-content .buyone-shape .banner-badge::after {
-              border-width: 29px 0 28px 40px; } }
-          @media (max-width: 767.98px) {
-            .banner-area .banner-content .buyone-shape .banner-badge::after {
-              border-width: 29px 0 28px 40px; } }
-    .banner-area .banner-content .order-box {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: end;
-      -ms-flex-align: end;
-      align-items: flex-end;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
-      .banner-area .banner-content .order-box .order-img img {
-        width: inherit; }
-      .banner-area .banner-content .order-box .order-content {
-        margin-left: 10px; }
-        .banner-area .banner-content .order-box .order-content p {
-          color: #ffffff;
-          margin-bottom: 0;
-          text-transform: capitalize; }
-        .banner-area .banner-content .order-box .order-content span {
-          color: #ff9933;
-          font-family: "Poppins", sans-serif;
-          font-weight: 700;
-          font-size: 24px; }
-          @media (min-width: 992px) and (max-width: 1199.98px) {
-            .banner-area .banner-content .order-box .order-content span {
-              font-size: 16px; } }
-          @media (min-width: 768px) and (max-width: 991.98px) {
-            .banner-area .banner-content .order-box .order-content span {
-              font-size: 16px; } }
-          @media (max-width: 767.98px) {
-            .banner-area .banner-content .order-box .order-content span {
-              font-size: 16px; } }
-      .banner-area .banner-content .order-box .btn {
-        padding: 15px 40px;
-        margin-left: 40px; }
-        @media (max-width: 575.98px) {
-          .banner-area .banner-content .order-box .btn {
-            margin-top: 20px; } }
-        @media (min-width: 992px) and (max-width: 1199.98px) {
-          .banner-area .banner-content .order-box .btn {
-            margin-left: 10px; } }
-        @media (min-width: 768px) and (max-width: 991.98px) {
-          .banner-area .banner-content .order-box .btn {
-            margin-left: 10px; } }
-        @media (max-width: 767.98px) {
-          .banner-area .banner-content .order-box .btn {
-            margin-left: 10px; } }
-    .banner-area .banner-content .price {
-      font-size: 24px;
-      color: #ffffff;
-      font-weight: 700;
-      text-transform: capitalize;
-      margin-bottom: 40px; }
-      @media (max-width: 767.98px) {
-        .banner-area .banner-content .price {
-          margin-bottom: 20px; } }
-      @media (min-width: 768px) and (max-width: 991.98px) {
-        .banner-area .banner-content .price {
-          margin-bottom: 20px; } }
-      @media (min-width: 992px) and (max-width: 1199.98px) {
-        .banner-area .banner-content .price {
-          margin-bottom: 20px; } }
-      @media (min-width: 1200px) and (max-width: 1439.98px) {
-        .banner-area .banner-content .price {
-          margin-bottom: 20px; } }
-      .banner-area .banner-content .price span {
-        color: #ff9933;
-        font-size: 36px;
-        font-weight: 700; }
-  .banner-area .banner-img {
-    position: relative; }
-    .banner-area .banner-img .pizza-shapes img {
-      width: inherit; }
-    .banner-area .banner-img .pizza-shapes .p-shape-1 {
-      position: absolute;
-      bottom: -15%;
-      left: -3%;
-      width: 75px; }
-      @media (min-width: 1200px) and (max-width: 1439.98px) {
-        .banner-area .banner-img .pizza-shapes .p-shape-1 {
-          bottom: -19%; } }
-      @media (min-width: 1440px) and (max-width: 1599.98px) {
-        .banner-area .banner-img .pizza-shapes .p-shape-1 {
-          bottom: -21%; } }
-    .banner-area .banner-img .pizza-shapes .p-shape-2 {
-      position: absolute;
-      right: -27%;
-      top: 7%;
-      width: 76px; }
-      @media (min-width: 1200px) and (max-width: 1439.98px) {
-        .banner-area .banner-img .pizza-shapes .p-shape-2 {
-          right: -3%;
-          top: -9%;
-          width: 80px; } }
-    .banner-area .banner-img .pizza-shapes .p-shape-3 {
-      position: absolute;
-      right: -9%;
-      top: -10%; }
-      @media (min-width: 1200px) and (max-width: 1439.98px) {
-        .banner-area .banner-img .pizza-shapes .p-shape-3 {
-          right: 2%;
-          top: -6%; } }
-    .banner-area .banner-img .pizza-shapes .p-shape-4 {
-      width: 170px;
-      top: 12%;
-      position: absolute;
-      left: -7%; }
-    .banner-area .banner-img img {
-      margin-left: 76px;
-      width: 100%;
-      margin-top: 5px; }
-      @media (min-width: 1200px) and (max-width: 1439.98px) {
-        .banner-area .banner-img img {
-          margin-left: 76px;
-          width: inherit;
-          margin-top: 5px; } }
-      @media (min-width: 1440px) and (max-width: 1599.98px) {
-        .banner-area .banner-img img {
-          margin-left: 76px;
-          width: inherit;
-          margin-top: 5px; } }
-      @media (min-width: 1600px) and (max-width: 1919.99px) {
-        .banner-area .banner-img img {
-          margin-left: 76px;
-          width: inherit; } }
+
 
 .common-title-area h3 {
   font-family: "Caveat", cursive;
@@ -8687,4 +8391,3 @@ ul.slick-dots li.slick-active button {
 
 
 
-  
