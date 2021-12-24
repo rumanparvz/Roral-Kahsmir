@@ -8385,7 +8385,9 @@ ul.slick-dots li.slick-active button {
 .ice-logo-brands .single-brand-logo {
   width: 150px; }
 
+@media only screen and(max-width: 414px){
 
+}
 
 
 

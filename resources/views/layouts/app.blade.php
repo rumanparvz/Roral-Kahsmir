@@ -138,7 +138,7 @@
       </div>
     </div>
     <!-- header-bottom -->
-    <div class="header-bottom margin-top-20">
+    <div style="background: black;opacity: 0.8;" class="header-bottom">
       <div class="container position-relative">
         <div class="row d-flex align-items-center">
           <div class="col-lg-2 col-md-2 col-sm-2 col-3">
@@ -320,7 +320,7 @@
                               items:1,
                               nav:true,
                               loop:true,
-                             
+
                           },
                           600:{
                               items:1,
@@ -330,7 +330,7 @@
                           1000:{
                               items:6,
                               loop:true,
-                              
+
                           }
                       }
                   });
