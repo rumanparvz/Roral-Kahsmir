@@ -25,6 +25,31 @@ z-index: 99;
     font-family: sans-serif;
     color: #fff;
 }
+.about-image-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.about-image-grid-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.about-image-grid-inner {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
 </style>
  <!-- banner-area -->
  <section class="banner-area pt-4">
@@ -172,14 +197,44 @@ z-index: 99;
   <!--popula-menu-area -->
 <section class="menu-area padding-bottom-120">
     <div class="container">
-    <div class="common-title-area text-center padding-50 wow fadeInUp">
+    {{-- <div class="common-title-area text-center padding-50 wow fadeInUp">
         <h3>food items</h3>
         <h2>popular <span>menu</span></h2>
-    </div>
+    </div> --}}
     <!-- menu-nav-wrapper -->
+    <div class="row mt-5 pt-5">
+    <div class="col-xl-6 col-lg-6 col-md-6">
+        <div class="max-w-390">
+            <div class="common-title-area padding-bottom-30 wow fadeInLeft">
 
+                <h2>Roral <span>Kashmir</span></h2>
+            </div>
+          <p class="online-des">
+            NOUS VISONS À PRODUIRE À LA MAISON AUTANT QUE POSSIBLE POUR LA MEILLEURE QUALITÉ ET À RÉDUIRE LES MILLES ALIMENTAIRES. NOS DÉLICIEUX GÂTEAUX, SCONES TRADITIONNELS DEVON, PAINS, SOUPES, SAUCES ET ACCOMPAGNEMENTS SONT PRODUITS DANS NOS PROPRES CUISINES. RESTAURANT INDIEN EN FRANCE, INCLUENT UN MENU DE RESTAURANT MERVEILLEUX OÙ VOUS POURREZ PROFITER DE LA MEILLEURE CUISINE INDIENNE ET PAKISTANAISE DANS LE RESTAURANT ET BIEN PLUS ENCORE. JARDIN DE KASHMIR EST LA MEILLEURE OPTION AUTOUR DE VOUS. HAUTE GASTRONOMIE INDIENNE ET PAKISTANAISE
+          </p>
+       
+        </div>
+      </div>
 
+      <div class="col-xl-6 col-lg-6 col-md-6">
+        <div class="about-image-grid">
+                   <div class="about-image-grid-item">
+                      <div class="about-image-grid-inner mb-30">
+                         <img src="https://fasteats.xyz/storage/upload/aboutImage/product--1637711365.jpg" class="img-fluid" alt="welcome">
+                      </div>
+                      <div class="about-image-grid-inner mb-30">
+                         <img src="https://fasteats.xyz/storage/upload/aboutImage/product--1637711565.jpg" class="img-fluid" alt="welcome">
+                      </div>
+                   </div>
+                   <div class="about-image-grid-item">
+                      <div class="about-image-grid-inner fluid-height">
+                         <img src="https://fasteats.xyz/storage/upload/aboutImage/product--1637711627.jpg" class="img-fluid" alt="welcome">
+                      </div>
+                   </div>
+                </div>
+      </div>
 
+    </div>
 
     </div>
 </section>
