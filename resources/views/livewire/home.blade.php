@@ -153,10 +153,13 @@ a.about-more-z.com-btn {
     border-radius: 10px;
     overflow: hidden;
 }
-
-
+@media (max-width: 767px){
+.headding-part .headding-title {
+    font-size: 30px;
+    line-height: 30px;
+}
+}
 </style>
- <!-- banner-area -->
  <section class="banner-area pt-4">
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -304,15 +307,10 @@ a.about-more-z.com-btn {
 </section>
 
 
-  <!--popula-menu-area -->
 <section class="menu-area padding-bottom-120">
     <div class="container">
-    {{-- <div class="common-title-area text-center padding-50 wow fadeInUp">
-        <h3>food items</h3>
-        <h2>popular <span>menu</span></h2>
-    </div> --}}
-    <!-- menu-nav-wrapper -->
-    <div class="row mt-5 pt-5">
+
+    <div class="row mt-5">
 
         <div class="col-xl-6 col-lg-6 col-md-6">
           <div class="max-w-390">
