@@ -3,6 +3,7 @@
 @section('content')
  <!-- banner-area -->
  <section class="banner-area padding-top-100 padding-bottom-150">
+    
     <div class="banner-shapes">
       <span class="b-shape-1 item-animateOne"><img src="{{asset('images/fontent')}}/img/5.png" alt="" /></span>
       <span class="b-shape-2 item-animateTwo"><img src="{{asset('images/fontent')}}/img/6.png" alt="" /></span>
@@ -51,7 +52,7 @@
     </div>
 </section>
  <!-- form-area -->
-<section class="form-area">
+{{-- <section class="form-area">
     <div class="container">
     <div class="form-box padding-top-110 padding-bottom-80">
         <div class="form-shapes">
@@ -91,10 +92,10 @@
         </div>
     </div>
     </div>
-</section>
+</section> --}}
 
 <!-- about us -->
-<section class="about-area padding-top-120">
+{{-- <section class="about-area padding-top-120">
     <div class="container">
       <div class="row">
         <div class="col-lg-5 col-md-12 wow fadeInLeft">
@@ -170,11 +171,97 @@
         </div>
       </div>
     </div>
+</section> --}}
+<section class="banner-gallery pt-5 pb-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="common-title-area padding-bottom-30 wow fadeInLeft">
+            <h3 class="text-dark text-center">Offer</h3>
+            <h2>Special <span>Offer</span></h2>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-xs-6">
+              <div class="gallery-img-1">
+                <h3>Buzzed Burger</h3>
+                <p>Sale off 50% only this week</p>
+                <a href="shopping-cart.html" class="btn">order now</a>
+                <img src="{{asset('images/fontent')}}/gallery/24.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-6">
+              <div class="
+                    gallery-img-2
+                    d-flex
+                    align-items-end
+                    justify-content-end
+                  ">
+                <img src="{{asset('images/fontent')}}/gallery/26.png" alt="" />
+                <img src="{{asset('images/fontent')}}/shapes/38.png" alt="" class="s11" />
+                <span class="gprice-1">$15</span>
+                <div class="gimg-content">
+                  <h5>Super Delicious Pizza</h5>
+                  <a href="shopping-cart.html">order now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{-- <div class="row margin-top-30">
+            <div class="col-lg-4 col-md-4">
+              <div class="gallery-img-3">
+                <h5>Super Combo Burger</h5>
+                <a href="shopping-cart.html">order now</a>
+                <img src="{{asset('images/fontent')}}/gallery/23.png" alt="" />
+                <img src="{{asset('images/fontent')}}/shapes/layer2.png" alt="" class="s12" />
+                <img src="{{asset('images/fontent')}}/shapes/113.png" alt="" class="s13" />
+                <span class="gprice-2">$15</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="
+                    gallery-img-2
+                    d-flex
+                    align-items-end
+                    justify-content-end
+                  ">
+                <img src="{{asset('images/fontent')}}/gallery/26.png" alt="" />
+                <img src="{{asset('images/fontent')}}/shapes/38.png" alt="" class="s11" />
+                <span class="gprice-1">$15</span>
+                <div class="gimg-content">
+                  <h5>Super Delicious Pizza</h5>
+                  <a href="shopping-cart.html">order now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="gallery-img-3">
+                <h5>Super Combo Burger</h5>
+                <a href="shopping-cart.html">order now</a>
+                <img src="{{asset('images/fontent')}}/gallery/23.png" alt="" />
+                <img src="{{asset('images/fontent')}}/shapes/layer2.png" alt="" class="s12" />
+                <img src="{{asset('images/fontent')}}/shapes/113.png" alt="" class="s13" />
+                <span class="gprice-2">$15</span>
+              </div>
+            </div>
+          </div> --}}
+        </div>
+        {{-- <div class="col-lg-3 col-md-12">
+          <div class="gallery-img-4">
+            <h5>Super Combo Burger</h5>
+            <a href="shopping-cart.html" class="btn">order now</a>
+            <img src="{{asset('images/fontent')}}/gallery/22.png" alt="" />
+            <img src="{{asset('images/fontent')}}/shapes/leaves.png" alt="" class="s14" />
+            <img src="{{asset('images/fontent')}}/shapes/transparent2.png" alt="" class="s15" />
+            <span class="gprice-4"><img src="{{asset('images/fontent')}}/gallery/25.png" alt="" /></span>
+          </div>
+        </div> --}}
+      </div>
+    </div>
 </section>
 
 
   <!--popula-menu-area -->
-<section class="menu-area padding-bottom-120">
+{{-- <section class="menu-area padding-bottom-120">
     <div class="container">
     <div class="common-title-area text-center padding-50 wow fadeInUp">
         <h3>food items</h3>
@@ -295,6 +382,7 @@
                 </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-4">
                 <div class="
                     single-menu-item
@@ -313,6 +401,7 @@
                 </div>
                 </div>
             </div>
+            
             <div class="col-lg-4 col-md-4">
                 <div class="
                     single-menu-item
@@ -1060,7 +1149,7 @@
         </div>
     </div>
     </div>
-</section>
+</section> --}}
 
 <!-- popular-dishes -->
 <section class="popular-dishes-area padding-top-110">
@@ -1075,16 +1164,17 @@
     <div class="container">
     <nav class="
             popular-tab-nav
-            d-flex
+            {{-- d-flex
             flex-wrap
             justify-content-between
-            align-items-center
+            align-items-center --}}
+            text-center
         ">
         <div class="common-title-area padding-bottom-30 wow fadeInLeft">
         <h3>food items</h3>
         <h2>popular <span>dishes</span></h2>
         </div>
-        <div class="nav padding-bottom-30 wow fadeInRight" id="nav-tab-1" role="tablist">
+        {{-- <div class="nav padding-bottom-30 wow fadeInRight" id="nav-tab-1" role="tablist">
         <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
             aria-selected="true">all items</a>
         <a class="nav-link" id="nav-tab-home" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1"
@@ -1098,14 +1188,14 @@
 
         <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4"
             aria-selected="false">drinks</a>
-        </div>
+        </div> --}}
     </nav>
     <!-- main-content -->
     <div class="tab-content" id="nav-tabContent-1">
         <!-- all items -->
         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home">
-        <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-6">
+        <div class="row pb-5 mb-5">
+            {{-- <div class="col-xl-3 col-lg-3 col-md-6">
             <div class="single-dishes">
                 <div class="dish-img">
                 <img src="{{asset('images/fontent')}}/menu-item/pd1.png" style="width: inherit" alt="" />
@@ -1128,8 +1218,8 @@
                 </span>
                 </div>
             </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
+            </div> --}}
+            {{-- <div class="col-xl-3 col-lg-3 col-md-6">
             <div class="single-dishes">
                 <div class="dish-img">
                 <img src="{{asset('images/fontent')}}/menu-item/pd2.png" style="width: inherit" alt="" />
@@ -1178,1025 +1268,360 @@
                 </span>
                 </div>
             </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd4.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Chickpea Soup </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">sale</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd5.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Garlic Burger </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">hot</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd6.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Vegetable Pizza </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge"></span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd7.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Chicken Fry </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="badge-color price">price :$15.00</span>
-                <span class="rating">
-                    <i class="fas fa-star"></i> 5star</span>
-                </div>
-                <span class="badge"></span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd8.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Chickpea Soup </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">sale</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
+            </div> --}}
 
-        <!-- pizza -->
-        <div class="tab-pane fade" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
-        <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd5.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Margherita </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">hot</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd5.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Vegetable Pizza </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge"></span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd5.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Marinara </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price badge-color">price :$15.00</span>
-                <span class="rating">
-                    <i class="fas fa-star"></i> 5star</span>
-                </div>
-                <span class="badge badge-bg-color">new</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd5.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Frutti Di Mare </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">sale</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd5.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Americana </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">hot</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd5.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Vegetable Pizza </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge"></span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd5.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Pizza Al Pesto </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="badge-color price">price :$15.00</span>
-                <span class="rating">
-                    <i class="fas fa-star"></i> 5star</span>
-                </div>
-                <span class="badge"></span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd5.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Americana </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">sale</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
-        <!-- burger -->
-        <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
-        <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd1.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Garlic Burger </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">hot</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd1.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Vegetable Pizza </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge"></span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd1.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Chicken Fry </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price badge-color">price :$15.00</span>
-                <span class="rating">
-                    <i class="fas fa-star"></i> 5star</span>
-                </div>
-                <span class="badge badge-bg-color">new</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd1.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Chickpea Soup </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">sale</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd1.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Garlic Burger </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">hot</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd1.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Vegetable Pizza </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge"></span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd1.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Chicken Fry </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="badge-color price">price :$15.00</span>
-                <span class="rating">
-                    <i class="fas fa-star"></i> 5star</span>
-                </div>
-                <span class="badge"></span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd1.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Chickpea Soup </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">sale</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
-        <!-- chicken -->
-        <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
-        <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd8.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Garlic Burger </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">hot</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd8.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Vegetable Pizza </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge"></span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd8.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Chicken Fry </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price badge-color">price :$15.00</span>
-                <span class="rating">
-                    <i class="fas fa-star"></i> 5star</span>
-                </div>
-                <span class="badge badge-bg-color">new</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd8.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Chickpea Soup </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">sale</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd8.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Garlic Burger </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">hot</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd8.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Vegetable Pizza </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge"></span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd8.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Chicken Fry </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="badge-color price">price :$15.00</span>
-                <span class="rating">
-                    <i class="fas fa-star"></i> 5star</span>
-                </div>
-                <span class="badge"></span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd8.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Chickpea Soup </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">sale</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
-        <!-- drinks -->
-        <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="tab-4">
-        <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd2.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Garlic Burger </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">hot</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd2.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Vegetable Pizza </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge"></span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd2.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Chicken Fry </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price badge-color">price :$15.00</span>
-                <span class="rating">
-                    <i class="fas fa-star"></i> 5star</span>
-                </div>
-                <span class="badge badge-bg-color">new</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd2.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Chickpea Soup </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">sale</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd2.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Garlic Burger </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">hot</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd2.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Vegetable Pizza </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge"></span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd2.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Chicken Fry </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="badge-color price">price :$15.00</span>
-                <span class="rating">
-                    <i class="fas fa-star"></i> 5star</span>
-                </div>
-                <span class="badge"></span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-            <div class="single-dishes">
-                <div class="dish-img">
-                <img src="{{asset('images/fontent')}}/menu-item/pd2.png" style="width: inherit" alt="" />
-                </div>
-                <div class="dish-content">
-                <h5><a href="single-dish.html">Chickpea Soup </a></h5>
-                <p>
-                    It is a long established fact that a reader BBQ food
-                    Chicken.
-                </p>
-                <span class="price">price :$15.00</span>
-                </div>
-                <span class="badge">sale</span>
-                <div class="cart-opt">
-                <span>
-                    <a href="#"><i class="fas fa-heart"></i></a>
-                </span>
-                <span>
-                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
-                </span>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="single-dishes">
+                        <div class="dish-img">
+                        <img src="{{asset('images/fontent')}}/menu-item/pd4.png" style="width: inherit" alt="" />
+                        </div>
+                        <div class="dish-content">
+                        <h5><a href="single-dish.html">Chickpea Soup </a></h5>
+                        <p>
+                            It is a long established fact that a reader BBQ food
+                            Chicken.
+                        </p>
+                        <span class="price">price :$15.00</span>
+                        </div>
+                        <span class="badge">sale</span>
+                        <div class="cart-opt">
+                        <span>
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </span>
+                        <span>
+                            <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
+                        </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="single-dishes">
+                        <div class="dish-img">
+                        <img src="{{asset('images/fontent')}}/menu-item/pd4.png" style="width: inherit" alt="" />
+                        </div>
+                        <div class="dish-content">
+                        <h5><a href="single-dish.html">Chickpea Soup </a></h5>
+                        <p>
+                            It is a long established fact that a reader BBQ food
+                            Chicken.
+                        </p>
+                        <span class="price">price :$15.00</span>
+                        </div>
+                        <span class="badge">sale</span>
+                        <div class="cart-opt">
+                        <span>
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </span>
+                        <span>
+                            <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
+                        </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="single-dishes">
+                        <div class="dish-img">
+                        <img src="{{asset('images/fontent')}}/menu-item/pd4.png" style="width: inherit" alt="" />
+                        </div>
+                        <div class="dish-content">
+                        <h5><a href="single-dish.html">Chickpea Soup </a></h5>
+                        <p>
+                            It is a long established fact that a reader BBQ food
+                            Chicken.
+                        </p>
+                        <span class="price">price :$15.00</span>
+                        </div>
+                        <span class="badge">sale</span>
+                        <div class="cart-opt">
+                        <span>
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </span>
+                        <span>
+                            <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
+                        </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="single-dishes">
+                        <div class="dish-img">
+                        <img src="{{asset('images/fontent')}}/menu-item/pd4.png" style="width: inherit" alt="" />
+                        </div>
+                        <div class="dish-content">
+                        <h5><a href="single-dish.html">Chickpea Soup </a></h5>
+                        <p>
+                            It is a long established fact that a reader BBQ food
+                            Chicken.
+                        </p>
+                        <span class="price">price :$15.00</span>
+                        </div>
+                        <span class="badge">sale</span>
+                        <div class="cart-opt">
+                        <span>
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </span>
+                        <span>
+                            <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
+                        </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="single-dishes">
+                        <div class="dish-img">
+                        <img src="{{asset('images/fontent')}}/menu-item/pd4.png" style="width: inherit" alt="" />
+                        </div>
+                        <div class="dish-content">
+                        <h5><a href="single-dish.html">Chickpea Soup </a></h5>
+                        <p>
+                            It is a long established fact that a reader BBQ food
+                            Chicken.
+                        </p>
+                        <span class="price">price :$15.00</span>
+                        </div>
+                        <span class="badge">sale</span>
+                        <div class="cart-opt">
+                        <span>
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </span>
+                        <span>
+                            <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
+                        </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="single-dishes">
+                        <div class="dish-img">
+                        <img src="{{asset('images/fontent')}}/menu-item/pd4.png" style="width: inherit" alt="" />
+                        </div>
+                        <div class="dish-content">
+                        <h5><a href="single-dish.html">Chickpea Soup </a></h5>
+                        <p>
+                            It is a long established fact that a reader BBQ food
+                            Chicken.
+                        </p>
+                        <span class="price">price :$15.00</span>
+                        </div>
+                        <span class="badge">sale</span>
+                        <div class="cart-opt">
+                        <span>
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </span>
+                        <span>
+                            <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
+                        </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="single-dishes">
+                        <div class="dish-img">
+                        <img src="{{asset('images/fontent')}}/menu-item/pd4.png" style="width: inherit" alt="" />
+                        </div>
+                        <div class="dish-content">
+                        <h5><a href="single-dish.html">Chickpea Soup </a></h5>
+                        <p>
+                            It is a long established fact that a reader BBQ food
+                            Chicken.
+                        </p>
+                        <span class="price">price :$15.00</span>
+                        </div>
+                        <span class="badge">sale</span>
+                        <div class="cart-opt">
+                        <span>
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </span>
+                        <span>
+                            <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
+                        </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="single-dishes">
+                        <div class="dish-img">
+                        <img src="{{asset('images/fontent')}}/menu-item/pd4.png" style="width: inherit" alt="" />
+                        </div>
+                        <div class="dish-content">
+                        <h5><a href="single-dish.html">Chickpea Soup </a></h5>
+                        <p>
+                            It is a long established fact that a reader BBQ food
+                            Chicken.
+                        </p>
+                        <span class="price">price :$15.00</span>
+                        </div>
+                        <span class="badge">sale</span>
+                        <div class="cart-opt">
+                        <span>
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </span>
+                        <span>
+                            <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
+                        </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            {{-- <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <div class="single-dishes">
+                    <div class="dish-img">
+                    <img src="{{asset('images/fontent')}}/menu-item/pd4.png" style="width: inherit" alt="" />
+                    </div>
+                    <div class="dish-content">
+                    <h5><a href="single-dish.html">Chickpea Soup </a></h5>
+                    <p>
+                        It is a long established fact that a reader BBQ food
+                        Chicken.
+                    </p>
+                    <span class="price">price :$15.00</span>
+                    </div>
+                    <span class="badge">sale</span>
+                    <div class="cart-opt">
+                    <span>
+                        <a href="#"><i class="fas fa-heart"></i></a>
+                    </span>
+                    <span>
+                        <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
+                    </span>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                    <div class="single-dishes">
+                        <div class="dish-img">
+                        <img src="{{asset('images/fontent')}}/menu-item/pd4.png" style="width: inherit" alt="" />
+                        </div>
+                        <div class="dish-content">
+                        <h5><a href="single-dish.html">Chickpea Soup </a></h5>
+                        <p>
+                            It is a long established fact that a reader BBQ food
+                            Chicken.
+                        </p>
+                        <span class="price">price :$15.00</span>
+                        </div>
+                        <span class="badge">sale</span>
+                        <div class="cart-opt">
+                        <span>
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                        </span>
+                        <span>
+                            <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
+                        </span>
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                        <div class="single-dishes">
+                            <div class="dish-img">
+                            <img src="{{asset('images/fontent')}}/menu-item/pd4.png" style="width: inherit" alt="" />
+                            </div>
+                            <div class="dish-content">
+                            <h5><a href="single-dish.html">Chickpea Soup </a></h5>
+                            <p>
+                                It is a long established fact that a reader BBQ food
+                                Chicken.
+                            </p>
+                            <span class="price">price :$15.00</span>
+                            </div>
+                            <span class="badge">sale</span>
+                            <div class="cart-opt">
+                            <span>
+                                <a href="#"><i class="fas fa-heart"></i></a>
+                            </span>
+                            <span>
+                                <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
+                            </span>
+                            </div>
+                        </div>
+                        </div>
+
+
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                            <div class="single-dishes">
+                                <div class="dish-img">
+                                <img src="{{asset('images/fontent')}}/menu-item/pd4.png" style="width: inherit" alt="" />
+                                </div>
+                                <div class="dish-content">
+                                <h5><a href="single-dish.html">Chickpea Soup </a></h5>
+                                <p>
+                                    It is a long established fact that a reader BBQ food
+                                    Chicken.
+                                </p>
+                                <span class="price">price :$15.00</span>
+                                </div>
+                                <span class="badge">sale</span>
+                                <div class="cart-opt">
+                                <span>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                </span>
+                                <span>
+                                    <a href="shopping-cart.html"><i class="fas fa-shopping-basket"></i></a>
+                                </span>
+                                </div>
+                            </div>
+                            </div> --}}
+
+
+
+
+
+
+
+            
     </div>
     </div>
 </section>
 
 <!-- banner-gallery -->
-<section class="banner-gallery padding-top-100 padding-bottom-120">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-9 col-md-12">
-          <div class="row">
-            <div class="col-lg-8 col-md-8">
-              <div class="gallery-img-1">
-                <h3>Buzzed Burger</h3>
-                <p>Sale off 50% only this week</p>
-                <a href="shopping-cart.html" class="btn">order now</a>
-                <img src="{{asset('images/fontent')}}/gallery/24.png" alt="" />
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-              <div class="
-                    gallery-img-2
-                    d-flex
-                    align-items-end
-                    justify-content-end
-                  ">
-                <img src="{{asset('images/fontent')}}/gallery/26.png" alt="" />
-                <img src="{{asset('images/fontent')}}/shapes/38.png" alt="" class="s11" />
-                <span class="gprice-1">$15</span>
-                <div class="gimg-content">
-                  <h5>Super Delicious Pizza</h5>
-                  <a href="shopping-cart.html">order now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row margin-top-30">
-            <div class="col-lg-4 col-md-4">
-              <div class="gallery-img-3">
-                <h5>Super Combo Burger</h5>
-                <a href="shopping-cart.html">order now</a>
-                <img src="{{asset('images/fontent')}}/gallery/23.png" alt="" />
-                <img src="{{asset('images/fontent')}}/shapes/layer2.png" alt="" class="s12" />
-                <img src="{{asset('images/fontent')}}/shapes/113.png" alt="" class="s13" />
-                <span class="gprice-2">$15</span>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-              <div class="
-                    gallery-img-2
-                    d-flex
-                    align-items-end
-                    justify-content-end
-                  ">
-                <img src="{{asset('images/fontent')}}/gallery/26.png" alt="" />
-                <img src="{{asset('images/fontent')}}/shapes/38.png" alt="" class="s11" />
-                <span class="gprice-1">$15</span>
-                <div class="gimg-content">
-                  <h5>Super Delicious Pizza</h5>
-                  <a href="shopping-cart.html">order now</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-              <div class="gallery-img-3">
-                <h5>Super Combo Burger</h5>
-                <a href="shopping-cart.html">order now</a>
-                <img src="{{asset('images/fontent')}}/gallery/23.png" alt="" />
-                <img src="{{asset('images/fontent')}}/shapes/layer2.png" alt="" class="s12" />
-                <img src="{{asset('images/fontent')}}/shapes/113.png" alt="" class="s13" />
-                <span class="gprice-2">$15</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-12">
-          <div class="gallery-img-4">
-            <h5>Super Combo Burger</h5>
-            <a href="shopping-cart.html" class="btn">order now</a>
-            <img src="{{asset('images/fontent')}}/gallery/22.png" alt="" />
-            <img src="{{asset('images/fontent')}}/shapes/leaves.png" alt="" class="s14" />
-            <img src="{{asset('images/fontent')}}/shapes/transparent2.png" alt="" class="s15" />
-            <span class="gprice-4"><img src="{{asset('images/fontent')}}/gallery/25.png" alt="" /></span>
-          </div>
-        </div>
-      </div>
-    </div>
-</section>
 
-<!-- countdown -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{-- <!-- countdown -->
 <section class="countdown-area padding-top-120 padding-bottom-120">
     <div class="container">
     <div class="countdown-shapes">
@@ -2633,7 +2058,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> --}}
 
 
 @endsection

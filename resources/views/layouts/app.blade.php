@@ -100,6 +100,7 @@
         <link rel="stylesheet" href="{{asset('css/fontent/meanmenu.min.css')}}">
         <link rel="stylesheet" href="{{asset('css/fontent/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{asset('css/fontent/font-awsome-all.min.css')}}">
+        <link rel="stylesheet" href="{{asset('css/fontent/owl.carousel.min.css')}}">
         <link rel="stylesheet" href="{{asset('css/fontent/slick.css')}}">
         <link rel="stylesheet" href="{{asset('css/fontent/jquery-ui.css')}}">
         <link rel="stylesheet" href="{{asset('css/fontent/style.css')}}">
@@ -150,9 +151,9 @@
             <nav id="mobile-menu">
               <ul class="main-menu">
                 <li><a href="/">home </a> </li>
-                <li><a href="/about-us">about us</a></li>
                 <li><a href="menu">menu</a></li>
-
+                <li><a href="/reservation">Reservation</a></li>
+                <li><a href="/about-us">about us</a></li>
                 <li><a href="/contact-us">contact us</a></li>
               </ul>
             </nav>
@@ -290,6 +291,8 @@
         <script src="{{asset('js/fontent/jquery.meanmenu.min.js')}}"></script>
         <script src="{{asset('js/fontent/jquery.magnific-popup.min.js')}}"></script>
         <script src="{{asset('js/fontent/slick.min.js')}}"></script>
+        <script src="{{ asset('js/fontent/owl.carousel.min.js') }}"></script>
+        <script src="{{ asset('js/fontent/owl.autoplay.js') }}"></script>
         <script src="{{asset('js/fontent/counterup.min.js')}}"></script>
         <script src="{{asset('js/fontent/countdown.js')}}"></script>
         <script src="{{asset('js/fontent/waypoints.min.js')}}"></script>
@@ -298,6 +301,7 @@
         <script src="{{asset('js/fontent/easing.min.js')}}"></script>
         <script src="{{asset('js/fontent/wow.min.js')}}"></script>
         <script src="{{asset('js/fontent/main.js')}}"></script>
+        <script src="{{asset('js/fontent/custom.js')}}"></script>
     </body>
 </html>
 

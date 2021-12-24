@@ -1,9 +1,7 @@
 @extends('layouts.app')
-@section('container')
+@section('content')
 <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.css' rel='stylesheet' />
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js'></script>
-
-
 <section class="page-banner" style="background: #121619 url(https://fasteats.xyz/content/website/images/blog-6.jpg) no-repeat center / cover;">
     <div class="container">
         <div class="row">

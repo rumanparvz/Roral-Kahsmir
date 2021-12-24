@@ -65,9 +65,9 @@
             <nav id="mobile-menu">
               <ul class="main-menu">
                 <li><a href="/">home </a> </li>
-                <li><a href="/about-us">about us</a></li>
                 <li><a href="menu">menu</a></li>
-
+                <li><a href="/reservation">Reservation</a></li>
+                <li><a href="/about-us">about us</a></li>
                 <li><a href="/contact-us">contact us</a></li>
               </ul>
             </nav>
